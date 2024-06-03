@@ -2,9 +2,11 @@ import dash
 from dash import html
 
 # Initialize the Dash app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__,
+                requests_pathname_prefix='/webapp/AHT/', routes_pathname_prefix="/webapp/AHT/")
 
-# Define the layout of the app
+
+# Define the layout of the appd
 app.layout = html.Div([
     # Form 1 - Query database
     html.H1('Hello World!')
