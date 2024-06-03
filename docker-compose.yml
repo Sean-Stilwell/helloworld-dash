@@ -4,7 +4,7 @@ version: '3.8'
 services:
   web:
     build: .
-    image: seanstilwell/hello-world-dash:latest
+    image: ghcr.io/ssc-sp/fsdh-dash-hello-world:latest
     container_name: hello-world-dash
     ports:
       - "80:80"
