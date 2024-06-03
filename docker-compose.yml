@@ -7,4 +7,4 @@ services:
     image: seanstilwell/hello-world-dash:latest
     container_name: hello-world-dash
     ports:
-      - "8080:8080"
+      - "80:80"
