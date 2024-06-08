@@ -3,7 +3,8 @@ from dash import html
 
 # Initialize the Dash app
 app = dash.Dash(__name__,
-                requests_pathname_prefix="/webapp-DIE3/")
+                requests_pathname_prefix="/webapp-DIE3/",
+                routes_pathname_prefix="/webapp-DIE3/")
 
 
 # Define the layout of the appd
